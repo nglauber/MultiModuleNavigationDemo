@@ -1,0 +1,5 @@
+include ':feature_profile'
+include ':feature_onboarding'
+include ':navigation'
+include ':app'
+rootProject.name = "MultiModuleNavDemo"

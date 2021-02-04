@@ -1,0 +1,22 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/onboarding_nav_graph">
+
+    <include app:graph="@navigation/onboarding_nav_graph" />
+
+    <include app:graph="@navigation/profile_nav_graph" />
+
+    <!--    <action-->
+    <!--        android:id="@+id/action_global_onboarding"-->
+    <!--        app:destination="@id/onboarding_nav_graph"-->
+    <!--        app:enterAnim="@anim/nav_default_enter_anim"-->
+    <!--        app:exitAnim="@anim/nav_default_exit_anim" />-->
+
+    <!--    <action-->
+    <!--        android:id="@+id/action_global_profile"-->
+    <!--        app:popUpTo="@id/main_nav_graph"-->
+    <!--        app:destination="@id/profile_nav_host"-->
+    <!--        app:enterAnim="@anim/nav_default_enter_anim"-->
+    <!--        app:exitAnim="@anim/nav_default_exit_anim" />-->
+</navigation>
